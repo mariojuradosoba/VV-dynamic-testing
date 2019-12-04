@@ -40,7 +40,11 @@ public class Dijkstra {
 	 * @param nVertices Non-negative number of vertices of the graph,
 	 * that is, the order of the adjacency matrix. 
 	 */
-	public Dijkstra(Double[][] adjMatrix, Integer nVertices){
+	public Dijkstra(Double[][] adjMatrix, Integer nVertices) throws Exception {
+
+	    if(adjMatrix.length != adjMatrix[0].length){
+	        throw new Exception("La matriz no es cuadrada");
+        }
 		this.adjMatrix = adjMatrix;
 		this.nVertices = nVertices;
 	}

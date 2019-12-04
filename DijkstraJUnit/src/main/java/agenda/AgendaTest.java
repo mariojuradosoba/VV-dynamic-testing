@@ -3,15 +3,16 @@ package agenda;
 import org.junit.Before;
 import org.junit.Test;
 
+import static org.junit.Assert.*;
 
-class AgendaTest {
+public class AgendaTest {
 
     Agenda agenda;
     Entry entry1, entry2, entry3;
 
 
     @Before
-    void setUp() {
+    public void setUp() throws Exception {
         agenda = new Agenda();
         entry1 = new Entry();
         entry2 = new Entry();
@@ -27,7 +28,6 @@ class AgendaTest {
         entry3.setSurname("SURNAME3");
     }
 
-
     @Test
     void Agenda(){
         Agenda a = new Agenda();
@@ -35,7 +35,7 @@ class AgendaTest {
     }
 
     @Test
-    void addEntry() {
+    public void addEntry() {
         agenda.addEntry(entry1);
 
         assert(!agenda.isEmpty());
@@ -54,7 +54,7 @@ class AgendaTest {
 
 
     @Test
-    void removeEntry() {
+    public void removeEntry() {
 
         agenda.removeEntry("AGENDA VACIA");
         assert(agenda.isEmpty());
@@ -83,7 +83,7 @@ class AgendaTest {
     }
 
     @Test
-    void removeFirst() {
+    public void removeFirst() {
         agenda.addEntry(entry1);
         agenda.addEntry(entry2);
 
@@ -94,7 +94,7 @@ class AgendaTest {
     }
 
     @Test
-    void nEntries() {
+    public void nEntries() {
 
         assert(agenda.nEntries()==0);
         agenda.addEntry(entry1);
@@ -103,11 +103,12 @@ class AgendaTest {
     }
 
     @Test
-    void isEmpty() {
+    public void isEmpty() {
         assert(agenda.isEmpty());
         agenda.addEntry(entry1);
         assert(!agenda.isEmpty());
     }
+
 //
 //    @Test
 //    void saveAgenda() {

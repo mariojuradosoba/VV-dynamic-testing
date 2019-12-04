@@ -1,7 +1,3 @@
-package agenda;
-
-import java.io.IOException;
-
 /**
  * Generic interface that must be implemented
  * by an Agenda123.java.

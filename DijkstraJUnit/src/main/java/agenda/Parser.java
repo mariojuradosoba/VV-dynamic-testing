@@ -2,7 +2,7 @@ package agenda;
 
 /**
  * Auxiliar class for persistence in text files
- * of the class Agenda.
+ * of the class Agenda123.java.
  * 
  * A Parser translates between Entry objects and
  * lines of the text file (String objects).

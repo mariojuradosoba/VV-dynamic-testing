@@ -1,5 +1,3 @@
-package agenda;
-
 class AgendaNode {
     Entry info;
     AgendaNode sig;
