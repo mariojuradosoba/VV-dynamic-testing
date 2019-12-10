@@ -69,8 +69,12 @@ public class DijkstraTest {
     @Test
     public void getPath() {
 
-        dijkstraOk.computeShortestPath(1, 5);
         ArrayList<Integer> path = dijkstraOk.getPath(1, 5);
+        assertNull(path);
+        assertTrue(dijkstraOk.hasErrorHappened());
+
+        dijkstraOk.computeShortestPath(1, 5);
+        path = dijkstraOk.getPath(1, 5);
 
         ArrayList<Integer> expected = new ArrayList<Integer>();
         expected.add(5);
@@ -81,6 +85,9 @@ public class DijkstraTest {
         for (int i = 0; i < expected.size(); i++) {
             assert (expected.get(i).equals(path.get(i)));
         }
+
+
+
     }
 
     @Test
@@ -91,7 +98,7 @@ public class DijkstraTest {
 
         dijkstraOk.computeShortestPath(5, 1);
         error =dijkstraOk.hasErrorHappened();
-        assertFalse(error);
+        assertTrue(error);
 
     }
 }
