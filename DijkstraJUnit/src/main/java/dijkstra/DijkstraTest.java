@@ -29,8 +29,8 @@ public class DijkstraTest {
 
     }
 
-    @Test
-    public void test2() throws Exception { //NO ES CUADRADA
+    @Test(expected = Exception.class) //Checks that when not squared matrix is introduced, an exception rises.
+    public void test2() throws Exception {
         Double[][] grafo = {
                 {inf, 1d, 2d, inf, inf, inf},
                 {inf, inf, inf, 1d, inf, inf},
@@ -39,7 +39,6 @@ public class DijkstraTest {
                 {inf, inf, inf, inf, inf, inf}
         };
         Dijkstra dijkstra = new Dijkstra(grafo, 6);
-        assertNull(dijkstra);
     }
 
     @Test
@@ -51,13 +50,12 @@ public class DijkstraTest {
         assertNotNull(dijkstra);
     }
 
-    @Test
-    public void test4() throws Exception { // 1 x 6
+    @Test(expected = Exception.class)
+    public void test4() throws Exception {
         Double[][] grafo = {
                 {inf, 1d, 2d, inf, inf, inf}
         };
         Dijkstra dijkstra = new Dijkstra(grafo, 6);
-        assertNotNull(dijkstra);
     }
 
 
