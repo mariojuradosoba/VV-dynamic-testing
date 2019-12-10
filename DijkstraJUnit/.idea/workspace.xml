@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5f40756-d02e-4abf-bcfe-cfce1e8aee0b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../AgendaJUnit/src/main/java/.idea/java.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AgendaJUnit/src/main/java/Agenda.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AgendaJUnit/src/main/java/Agenda.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/dijkstra/Dijkstra.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dijkstra/Dijkstra.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/dijkstra/DijkstraTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dijkstra/DijkstraTest.java" afterDir="false" />
@@ -16,18 +14,35 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageViewManager">
-    <option name="myElementSize" value="290" />
+    <option name="myElementSize" value="405" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/dijkstra/Dijkstra.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="162" column="30" selection-start-line="162" selection-start-column="30" selection-end-line="162" selection-end-column="30" />
+            <state relative-caret-position="334">
+              <caret line="145" column="35" selection-start-line="145" selection-start-column="32" selection-end-line="145" selection-end-column="35" />
+              <folding>
+                <element signature="e#6094#6095#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -41,13 +56,17 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/dijkstra/DijkstraTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="73" column="50" selection-start-line="73" selection-start-column="50" selection-end-line="73" selection-end-column="50" />
+            <state relative-caret-position="189">
+              <caret line="62" column="5" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#3615#3616#0" expanded="true" />
+                <element signature="e#3671#3672#0" expanded="true" />
+                <element signature="e#3733#3734#0" expanded="true" />
+                <element signature="e#3796#3797#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -73,6 +92,22 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>infi</find>
+      <find>inf</find>
+      <find>min-1</find>
+      <find>max</find>
+      <find>computeShortestPathFail</find>
+      <find>1.7976931348623157E308d</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>min</replace>
+      <replace>MIN</replace>
+      <replace>MAX</replace>
+      <replace>Double.MAX_VALUE</replace>
+    </replaceStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
@@ -86,8 +121,8 @@
         <option value="$PROJECT_DIR$/src/main/java/agenda/Agenda.java" />
         <option value="$PROJECT_DIR$/src/main/java/agenda/AgendaTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/dijkstra/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dijkstra/Dijkstra.java" />
         <option value="$PROJECT_DIR$/src/main/java/dijkstra/DijkstraTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dijkstra/Dijkstra.java" />
       </list>
     </option>
   </component>
@@ -212,35 +247,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.DijkstraTest.getPath">
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dijkstra.Main" />
-      <module name="VV dynamic testing" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dijkstra.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AgendaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="VV dynamic testing" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="agenda.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="agenda" />
-      <option name="MAIN_CLASS_NAME" value="agenda.AgendaTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.DijkstraTest">
     <configuration name="DijkstraTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="VV dynamic testing" />
       <extension name="coverage">
@@ -252,6 +259,54 @@
       <option name="PACKAGE_NAME" value="dijkstra" />
       <option name="MAIN_CLASS_NAME" value="dijkstra.DijkstraTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DijkstraTest.computeShortestPath" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="VV dynamic testing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dijkstra.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dijkstra" />
+      <option name="MAIN_CLASS_NAME" value="dijkstra.DijkstraTest" />
+      <option name="METHOD_NAME" value="computeShortestPath" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DijkstraTest.computeShortestPath1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="VV dynamic testing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dijkstra.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dijkstra" />
+      <option name="MAIN_CLASS_NAME" value="dijkstra.DijkstraTest" />
+      <option name="METHOD_NAME" value="computeShortestPath1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DijkstraTest.computerPathLauncher" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="VV dynamic testing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dijkstra.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dijkstra" />
+      <option name="MAIN_CLASS_NAME" value="dijkstra.DijkstraTest" />
+      <option name="METHOD_NAME" value="computerPathLauncher" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -272,22 +327,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DijkstraTest.hasErrorHappened" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="VV dynamic testing" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dijkstra.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="dijkstra" />
-      <option name="MAIN_CLASS_NAME" value="dijkstra.DijkstraTest" />
-      <option name="METHOD_NAME" value="hasErrorHappened" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Unnamed" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <module name="VV dynamic testing" />
       <option name="MAIN_CLASS_NAME" value="AgendaTest" />
@@ -299,20 +338,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main (1)" />
       <item itemvalue="JUnit.Unnamed" />
       <item itemvalue="JUnit.DijkstraTest" />
       <item itemvalue="JUnit.DijkstraTest.getPath" />
-      <item itemvalue="JUnit.DijkstraTest.hasErrorHappened" />
-      <item itemvalue="JUnit.AgendaTest" />
+      <item itemvalue="JUnit.DijkstraTest.computeShortestPath" />
+      <item itemvalue="JUnit.DijkstraTest.computeShortestPath1" />
+      <item itemvalue="JUnit.DijkstraTest.computerPathLauncher" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.DijkstraTest.getPath" />
         <item itemvalue="JUnit.DijkstraTest" />
-        <item itemvalue="JUnit.AgendaTest" />
-        <item itemvalue="JUnit.DijkstraTest.hasErrorHappened" />
-        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="JUnit.DijkstraTest.computerPathLauncher" />
+        <item itemvalue="JUnit.DijkstraTest.computeShortestPath1" />
+        <item itemvalue="JUnit.DijkstraTest.computeShortestPath" />
+        <item itemvalue="JUnit.DijkstraTest.getPath" />
       </list>
     </recent_temporary>
   </component>
@@ -331,7 +370,7 @@
       <workItem from="1575228746862" duration="2216000" />
       <workItem from="1575399830572" duration="1144000" />
       <workItem from="1575486903250" duration="3162000" />
-      <workItem from="1576008393167" duration="552000" />
+      <workItem from="1576008393167" duration="7153000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1575400313664</created>
@@ -347,49 +386,56 @@
       <option name="project" value="LOCAL" />
       <updated>1575489634010</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="100% Agenda y 100% Dijkstra">
+      <created>1576009220095</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1576009220096</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DijkstraTest_hasErrorHappened - 2019.12.04 at 20h 57m 05s.xml">
-      <configuration name="DijkstraTest.hasErrorHappened" configurationId="JUnit" />
+    <history-entry file="DijkstraTest_computerPathLauncher - 2019.12.10 at 22h 57m 38s.xml">
+      <configuration name="DijkstraTest.computerPathLauncher" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DijkstraTest_hasErrorHappened - 2019.12.04 at 20h 57m 18s.xml">
-      <configuration name="DijkstraTest.hasErrorHappened" configurationId="JUnit" />
+    <history-entry file="DijkstraTest_computerPathLauncher - 2019.12.10 at 22h 57m 40s.xml">
+      <configuration name="DijkstraTest.computerPathLauncher" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DijkstraTest_hasErrorHappened - 2019.12.04 at 21h 02m 59s.xml">
-      <configuration name="DijkstraTest.hasErrorHappened" configurationId="JUnit" />
+    <history-entry file="DijkstraTest_computerPathLauncher - 2019.12.10 at 22h 59m 05s.xml">
+      <configuration name="DijkstraTest.computerPathLauncher" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DijkstraTest_hasErrorHappened - 2019.12.04 at 21h 04m 32s.xml">
-      <configuration name="DijkstraTest.hasErrorHappened" configurationId="JUnit" />
+    <history-entry file="DijkstraTest_computerPathLauncher - 2019.12.10 at 22h 59m 26s.xml">
+      <configuration name="DijkstraTest.computerPathLauncher" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DijkstraTest_hasErrorHappened - 2019.12.04 at 21h 08m 23s.xml">
-      <configuration name="DijkstraTest.hasErrorHappened" configurationId="JUnit" />
+    <history-entry file="DijkstraTest_computerPathLauncher - 2019.12.10 at 23h 00m 17s.xml">
+      <configuration name="DijkstraTest.computerPathLauncher" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DijkstraTest_hasErrorHappened - 2019.12.04 at 21h 09m 16s.xml">
-      <configuration name="DijkstraTest.hasErrorHappened" configurationId="JUnit" />
+    <history-entry file="DijkstraTest_computerPathLauncher - 2019.12.10 at 23h 01m 20s.xml">
+      <configuration name="DijkstraTest.computerPathLauncher" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DijkstraTest_hasErrorHappened - 2019.12.04 at 21h 09m 47s.xml">
-      <configuration name="DijkstraTest.hasErrorHappened" configurationId="JUnit" />
+    <history-entry file="DijkstraTest - 2019.12.10 at 23h 01m 44s.xml">
+      <configuration name="DijkstraTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DijkstraTest_hasErrorHappened - 2019.12.04 at 21h 09m 59s.xml">
-      <configuration name="DijkstraTest.hasErrorHappened" configurationId="JUnit" />
+    <history-entry file="DijkstraTest - 2019.12.10 at 23h 03m 28s.xml">
+      <configuration name="DijkstraTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AgendaTest - 2019.12.10 at 21h 11m 40s.xml">
-      <configuration name="AgendaTest" configurationId="JUnit" />
+    <history-entry file="DijkstraTest - 2019.12.10 at 23h 04m 12s.xml">
+      <configuration name="DijkstraTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DijkstraTest - 2019.12.10 at 21h 12m 10s.xml">
+    <history-entry file="DijkstraTest - 2019.12.10 at 23h 04m 56s.xml">
       <configuration name="DijkstraTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7074000" />
+    <option name="totallyTimeSpent" value="13675000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19936034" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.19936034" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -398,8 +444,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.26868907" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.38136512" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.41386783" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -407,7 +453,7 @@
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32936078" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.72806066" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Version Control" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -416,10 +462,10 @@
       <window_info anchor="right" id="Maven" order="3" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Database" order="6" weight="0.32995737" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.3544776" />
+      <window_info active="true" anchor="right" id="Coverage" order="9" side_tool="true" visible="true" weight="0.3544776" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -428,34 +474,23 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <MESSAGE value="100% Aagenda, Dijkstra sin arreglar tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="100% Aagenda, Dijkstra sin arreglar tests" />
+    <MESSAGE value="100% Agenda y 100% Dijkstra" />
+    <option name="LAST_COMMIT_MESSAGE" value="100% Agenda y 100% Dijkstra" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/dijkstra/Dijkstra.java</url>
-          <line>127</line>
-          <properties />
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/dijkstra/Dijkstra.java</url>
-          <line>78</line>
-          <properties />
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/dijkstra/DijkstraTest.java</url>
-          <line>98</line>
-          <properties />
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/dijkstra/Dijkstra.java</url>
-          <line>163</line>
+          <line>166</line>
           <properties />
           <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/dijkstra/Dijkstra.java</url>
+          <line>116</line>
+          <properties />
+          <option name="timeStamp" value="26" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -464,14 +499,17 @@
     <SUITE FILE_PATH="coverage/DijkstraJUnit$Main.ic" NAME="Main Coverage Results" MODIFIED="1575487478252" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>agenda.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/DijkstraJUnit$DijkstraTest_computerPathLauncher.ic" NAME="DijkstraTest.computerPathLauncher Coverage Results" MODIFIED="1576014446405" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>dijkstra.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/DijkstraJUnit$DijkstraTest_test5.ic" NAME="DijkstraTest.test5 Coverage Results" MODIFIED="1575486979482" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/DijkstraJUnit$AgendaTest.ic" NAME="AgendaTest Coverage Results" MODIFIED="1576008690154" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>agenda.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/DijkstraJUnit$DijkstraTest.ic" NAME="DijkstraTest Coverage Results" MODIFIED="1576008724804" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/DijkstraJUnit$DijkstraTest_getPath.ic" NAME="DijkstraTest.getPath Coverage Results" MODIFIED="1576008967635" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>dijkstra.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/DijkstraJUnit$DijkstraTest_getPath.ic" NAME="DijkstraTest.getPath Coverage Results" MODIFIED="1576008967635" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/DijkstraJUnit$DijkstraTest.ic" NAME="DijkstraTest Coverage Results" MODIFIED="1576015666270" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>dijkstra.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/DijkstraJUnit$DijkstraTest_computeShortestPath.ic" NAME="DijkstraTest.computeShortestPath Coverage Results" MODIFIED="1575488683957" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
@@ -480,6 +518,40 @@
     <SUITE FILE_PATH="coverage/DijkstraJUnit$AgendaTest_Agenda.ic" NAME="AgendaTest.Agenda Coverage Results" MODIFIED="1575487620891" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>agenda.*</FILTER>
     </SUITE>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>dijkstraOk.computeShortestPath(6, 0)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>dist == this.inf</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>dist == Double.MAX_VALUE</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>dist == inf</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>dist</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>dist == Double.POSITIVE_INFINITY</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test/java/DijkstraTest.java" />
@@ -537,19 +609,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dijkstra/Dijkstra.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/ParentRunner.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="162" column="30" selection-start-line="162" selection-start-column="30" selection-end-line="162" selection-end-column="30" />
+        <state relative-caret-position="176">
+          <caret line="202" selection-start-line="202" selection-end-line="202" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/dijkstra/DijkstraTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="73" column="50" selection-start-line="73" selection-start-column="50" selection-end-line="73" selection-end-column="50" />
+        <state relative-caret-position="189">
+          <caret line="62" column="5" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#3615#3616#0" expanded="true" />
+            <element signature="e#3671#3672#0" expanded="true" />
+            <element signature="e#3733#3734#0" expanded="true" />
+            <element signature="e#3796#3797#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dijkstra/Dijkstra.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="145" column="35" selection-start-line="145" selection-start-column="32" selection-end-line="145" selection-end-column="35" />
+          <folding>
+            <element signature="e#6094#6095#0" expanded="true" />
           </folding>
         </state>
       </provider>

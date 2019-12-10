@@ -112,37 +112,39 @@ public class Dijkstra {
 	public Double computeShortestPath(Integer ini, Integer end) {
 		Double newDistance;
 		initializeDataStructures();
-		
-		Integer cur = ini;	//Starts in the initial vertex
-		distances[ini]=0.0;	//The cost of the path from ini to itself is 0
-		while(!visited[end]) {
-		    if(cur == -1){
-                dijkstraExec = false;	    //dijkstra.Dijkstra has been executed
-                error = true;
-                return -1d;
-            }
-			//For every vertex in the node
-			for(int neigh=0; neigh<nVertices; neigh++) {
-				//If the vertex is connected with the current node and
-				//has not been visited
-				if(adjMatrix[cur][neigh]>0 && !visited[neigh]) {
-					//Computes the distance of going to neigh via cur.
-					newDistance = distances[cur] + adjMatrix[cur][neigh];
-					
-					//If the new distance is better, update it.
-					if(distances[neigh] > newDistance) {
-						distances[neigh] = newDistance;
-						prev[neigh] = cur;
+		Double result = -1d;
+
+		if(ini < 0 || end < 0 || ini >= this.nVertices || end >= nVertices){
+			dijkstraExec = false;	    //dijkstra.Dijkstra has been executed
+			error = true;
+		}else {
+			Integer cur = ini;    //Starts in the initial vertex
+			distances[ini] = 0.0;    //The cost of the path from ini to itself is 0
+			while (!visited[end]) {
+				//For every vertex in the node
+				for (int neigh = 0; neigh < nVertices; neigh++) {
+					//If the vertex is connected with the current node and
+					//has not been visited
+					if (adjMatrix[cur][neigh] > 0 && !visited[neigh]) {
+						//Computes the distance of going to neigh via cur.
+						newDistance = distances[cur] + adjMatrix[cur][neigh];
+
+						//If the new distance is better, update it.
+						if (distances[neigh] > newDistance) {
+							distances[neigh] = newDistance;
+							prev[neigh] = cur;
+						}
 					}
 				}
+
+				visited[cur] = true;    //Mark the current node as visited
+				cur = nextCur();        //Choose a new current node
 			}
-			
-			visited[cur] = true; 	//Mark the current node as visited
-			cur = nextCur(); 		//Choose a new current node
+
+			dijkstraExec = true;        //dijkstra.Dijkstra has been executed
+			result =  distances[end];
 		}
-		
-		dijkstraExec = true;	    //dijkstra.Dijkstra has been executed
-		return distances[end];
+		return result;
 	}
 	
 	/**
