@@ -29,7 +29,7 @@ public class AgendaTest {
     }
 
     @Test
-    void Agenda(){
+    public void Agenda(){
         Agenda a = new Agenda();
         assert (a != null);
     }
