@@ -65,7 +65,6 @@ public class Dijkstra {
 			visited[i] = false;							//No node has been visited
 			prev[i] = -1;								//No shortest path
 		}
-
 	}
 	
 	/**
@@ -118,7 +117,7 @@ public class Dijkstra {
 			dijkstraExec = false;	    //dijkstra.Dijkstra has been executed
 			error = true;
 		}else {
-			Integer cur = ini;    //Starts in the initial vertex
+			Integer cur = ini;       //Starts in the initial vertex
 			distances[ini] = 0.0;    //The cost of the path from ini to itself is 0
 			while (!visited[end]) {
 				//For every vertex in the node
