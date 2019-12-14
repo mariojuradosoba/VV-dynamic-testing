@@ -3,6 +3,8 @@ package agenda;
 import org.junit.Before;
 import org.junit.Test;
 
+import java.io.IOException;
+
 import static org.junit.Assert.*;
 
 public class AgendaTest {
@@ -109,14 +111,90 @@ public class AgendaTest {
         assert(!agenda.isEmpty());
     }
 
-//
-//    @Test
-//    void saveAgenda() {
-//        //TODO: ?????????????
-//    }
-//
-//    @Test
-//    void loadAgenda() {
-//        //TODO: ?????????????
-//    }
+
+    @Test
+    public void saveAgenda() throws IOException {
+        if(agenda.isEmpty()) {
+            for (int i = 0; i< 10; i++){
+                Entry e = new Entry();
+                e.setName("Nombre" + i);
+                e.setSurname("Apellidos" + i);
+                e.setAddress("Direccion" + i);
+                e.setCity("Poblacion" + i);
+                e.setCounty("Provincia" + i);
+                e.setZip("Codigo" + i);
+                e.setTelephone("Telefono" + i);
+                e.setBirthYear( i*1000);
+
+                agenda.addEntry(e);
+            }
+        }
+        boolean result = agenda.saveAgenda();
+        Agenda agendaNueva = new Agenda();
+        agendaNueva.loadAgenda();
+        assertTrue(result);
+        assert(!agendaNueva.isEmpty());
+        assert (agendaNueva.nEntries() == 10);
+    }
+
+    @Test
+    public void loadAgenda() throws IOException {
+
+        Agenda a = new Agenda();
+        a.saveAgenda();
+
+
+
+        boolean result = agenda.loadAgenda();
+        assertFalse(result);
+
+
+        if(agenda.isEmpty()) {
+            for (int i = 0; i< 10; i++){
+                Entry e = new Entry();
+                e.setName("Nombre" + i);
+                e.setSurname("Apellidos" + i);
+                e.setAddress("Direccion" + i);
+                e.setCity("Poblacion" + i);
+                e.setCounty("Provincia" + i);
+                e.setZip("Codigo" + i);
+                e.setTelephone("Telefono" + i);
+                e.setBirthYear( i*1000);
+
+                agenda.addEntry(e);
+            }
+        }
+        agenda.saveAgenda();
+        Agenda agendaNueva = new Agenda();
+        result = agendaNueva.loadAgenda();
+        assertTrue(result);
+        assert(!agendaNueva.isEmpty());
+        assert (agendaNueva.nEntries() == 10);
+    }
+
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+                                            //CLASES DE EQUIVALENCIA
+    //////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+    @Test
+    public void addEntry1(){
+        agenda.addEntry(new Entry());
+        assert(agenda.nEntries()==1);
+        assert(!agenda.isEmpty());
+    }
+
+    @Test
+    public void addEntry2(){
+        agenda.addEntry(new Entry());
+        assert(agenda.nEntries()==1);
+        assert(!agenda.isEmpty());
+    }
+
+
+
+
+
+
+
+
 }

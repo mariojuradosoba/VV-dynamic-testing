@@ -1,5 +1,7 @@
 package agenda;
 
+import java.io.*;
+
 class AgendaNode {
     Entry info;
     AgendaNode sig;
@@ -122,61 +124,61 @@ public class Agenda implements AgendaInterface {
      * unchanged after the saving. The function returns true if the agenda was successfully
      * saved and false otherwise.
      */
-//    public boolean saveAgenda() throws IOException {
-//        AgendaNode cur = first;
-//        String line;
-//        boolean success = false;
-//        Parser p = new Parser();
-//
-//        FileWriter fichero = new FileWriter("agendafile.txt");
-//        BufferedWriter bufferescritura = new BufferedWriter(fichero);
-//        PrintWriter output = new PrintWriter(bufferescritura);
-//
-//        while (cur != null) {
-//            if (!success) {
-//                success = true;
-//            }
-//            p.insertEntry(cur.info);
-//            line = p.getLine();
-//            output.println(line);
-//            cur = cur.sig;
-//        }
-//
-//        output.close();
-//
-//        return success;
-//    }
-//
-//    /**
-//     * STATIC ANALYSIS
-//     * The function loadAgenda must load the agenda from the file agendafile.txt,
-//     * adding all the entries in that file. If the agenda is not empty, all the
-//     * pre-existing contacts are removed and the final agenda only contain
-//     * the entries of the file. If the file agendafile.txt is empty or
-//     * does not exists, the agenda remain unchanged.
-//     * The function returns true is the file exists and false otherwise.
-//     */
-//    public boolean loadAgenda() throws IOException {
-//        FileReader filein = new FileReader("agendafile.txt");
-//        BufferedReader bufferin = new BufferedReader(filein);
-//
-//        Parser p = new Parser();
-//        String cad;
-//        if ((cad = bufferin.readLine()) == null) {
-//            bufferin.close();
-//            return false;
-//        }
-//
-//        do {
-//            System.out.println(cad);
-//            p.insertLine(cad);
-//            Entry auxEntry = p.getEntry();
-//            if (auxEntry.hasData()) {
-//                addEntry(auxEntry);
-//            }
-//        } while ((cad = bufferin.readLine()) != null);
-//        filein.close();
-//
-//        return true;
-//    }
+    public boolean saveAgenda() throws IOException {
+        AgendaNode cur = first;
+        String line;
+        boolean success = false;
+        Parser p = new Parser();
+
+        FileWriter fichero = new FileWriter("agendafile.txt");
+        BufferedWriter bufferescritura = new BufferedWriter(fichero);
+        PrintWriter output = new PrintWriter(bufferescritura);
+
+        while (cur != null) {
+            if (!success) {
+                success = true;
+            }
+            p.insertEntry(cur.info);
+            line = p.getLine();
+            output.println(line);
+            cur = cur.sig;
+        }
+
+        output.close();
+
+        return success;
+    }
+
+    /**
+     * STATIC ANALYSIS
+     * The function loadAgenda must load the agenda from the file agendafile.txt,
+     * adding all the entries in that file. If the agenda is not empty, all the
+     * pre-existing contacts are removed and the final agenda only contain
+     * the entries of the file. If the file agendafile.txt is empty or
+     * does not exists, the agenda remain unchanged.
+     * The function returns true is the file exists and false otherwise.
+     */
+    public boolean loadAgenda() throws IOException {
+        FileReader filein = new FileReader("agendafile.txt");
+        BufferedReader bufferin = new BufferedReader(filein);
+
+        Parser p = new Parser();
+        String cad;
+        if ((cad = bufferin.readLine()) == null) {
+            bufferin.close();
+            return false;
+        }
+
+        do {
+            System.out.println(cad);
+            p.insertLine(cad);
+            Entry auxEntry = p.getEntry();
+            if (auxEntry.hasData()) {
+                addEntry(auxEntry);
+            }
+        } while ((cad = bufferin.readLine()) != null);
+        filein.close();
+
+        return true;
+    }
 }
