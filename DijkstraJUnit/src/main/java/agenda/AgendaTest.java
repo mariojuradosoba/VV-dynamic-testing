@@ -176,7 +176,7 @@ public class AgendaTest {
 
     @Test
     public void addEntry1() {
-        boolean result = agenda.addEntry(new Entry());
+        boolean result = agenda.addEntry(entry1);
         assert (agenda.nEntries() == 1);
         assert (!agenda.isEmpty());
         assert (result);
@@ -184,8 +184,6 @@ public class AgendaTest {
 
     @Test
     public void addEntry2() {
-        Entry entry1 = new Entry();
-        entry1.setName("entry1");
         agenda.addEntry(entry1);
         boolean result = agenda.addEntry(entry1);
 
@@ -196,12 +194,8 @@ public class AgendaTest {
 
     @Test
     public void addEntry3() {
-        Entry entry1 = new Entry();
-        entry1.setName("entry1");
-        agenda.addEntry(entry1);
 
-        Entry entry2 = new Entry();
-        entry2.setName("entry2");
+        agenda.addEntry(entry1);
         boolean result = agenda.addEntry(entry2);
 
         assert (agenda.nEntries() == 2);
@@ -217,12 +211,11 @@ public class AgendaTest {
 
     @Test
     public void removeFirst2() {
-        Entry entry = new Entry();
-        entry.setName("entry");
-        agenda.addEntry(entry);
+
+        agenda.addEntry(entry1);
         Entry result = agenda.removeFirst();
         assertNotNull(result);
-        assert (result.getName().equals("entry"));
+        assert (result.getName().equals("NAME1"));
     }
 
     @Test
@@ -239,7 +232,7 @@ public class AgendaTest {
 
     @Test
     public void isEmpty2() {
-        agenda.addEntry(new Entry());
+        agenda.addEntry(entry1);
         boolean result = agenda.isEmpty();
         assert (!result);
     }
