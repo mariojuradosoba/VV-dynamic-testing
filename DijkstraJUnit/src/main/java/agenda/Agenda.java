@@ -110,11 +110,7 @@ public class Agenda implements AgendaInterface {
     }
 
     public boolean isEmpty() {
-        if (first == null) {
-            return true;
-        } else {
-            return false;
-        }
+        return first == null;
     }
 
     /**
