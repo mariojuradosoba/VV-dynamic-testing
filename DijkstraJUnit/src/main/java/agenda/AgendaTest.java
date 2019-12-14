@@ -31,7 +31,7 @@ public class AgendaTest {
     }
 
     @Test
-    public void Agenda(){
+    public void Agenda() {
         Agenda a = new Agenda();
         assert (a != null);
     }
@@ -40,18 +40,18 @@ public class AgendaTest {
     public void addEntry() {
         agenda.addEntry(entry1);
 
-        assert(!agenda.isEmpty());
-        assert(agenda.nEntries()==1);
+        assert (!agenda.isEmpty());
+        assert (agenda.nEntries() == 1);
 
         agenda.addEntry(entry2);
 
-        assert(!agenda.isEmpty());
-        assert(agenda.nEntries()==2);
+        assert (!agenda.isEmpty());
+        assert (agenda.nEntries() == 2);
 
         agenda.addEntry(entry2);
 
-        assert(!agenda.isEmpty());
-        assert(agenda.nEntries()==2);
+        assert (!agenda.isEmpty());
+        assert (agenda.nEntries() == 2);
     }
 
 
@@ -59,28 +59,28 @@ public class AgendaTest {
     public void removeEntry() {
 
         agenda.removeEntry("AGENDA VACIA");
-        assert(agenda.isEmpty());
-        assert(agenda.nEntries()==0);
+        assert (agenda.isEmpty());
+        assert (agenda.nEntries() == 0);
 
         agenda.addEntry(entry1);
         agenda.addEntry(entry2);
         agenda.addEntry(entry3);
 
         agenda.removeEntry("NAME2");
-        assert(!agenda.isEmpty());
-        assert(agenda.nEntries()==2);
+        assert (!agenda.isEmpty());
+        assert (agenda.nEntries() == 2);
 
         agenda.removeEntry("NAME INVALID");
-        assert(!agenda.isEmpty());
-        assert(agenda.nEntries()==2);
+        assert (!agenda.isEmpty());
+        assert (agenda.nEntries() == 2);
 
         agenda.removeEntry("NAME1");
-        assert(!agenda.isEmpty());
-        assert(agenda.nEntries()==1);
+        assert (!agenda.isEmpty());
+        assert (agenda.nEntries() == 1);
 
         agenda.removeEntry("NAME3");
-        assert(agenda.isEmpty());
-        assert(agenda.nEntries()==0);
+        assert (agenda.isEmpty());
+        assert (agenda.nEntries() == 0);
 
     }
 
@@ -91,14 +91,14 @@ public class AgendaTest {
 
         Entry firstRemoved = agenda.removeFirst();
 
-        assert(firstRemoved.getName().equals("NAME2"));
-        assert(firstRemoved.getSurname().equals("SURNAME2"));
+        assert (firstRemoved.getName().equals("NAME2"));
+        assert (firstRemoved.getSurname().equals("SURNAME2"));
     }
 
     @Test
     public void nEntries() {
 
-        assert(agenda.nEntries()==0);
+        assert (agenda.nEntries() == 0);
         agenda.addEntry(entry1);
         assert (agenda.nEntries() == 1);
 
@@ -106,9 +106,9 @@ public class AgendaTest {
 
     @Test
     public void isEmpty() {
-        assert(agenda.isEmpty());
+        assert (agenda.isEmpty());
         agenda.addEntry(entry1);
-        assert(!agenda.isEmpty());
+        assert (!agenda.isEmpty());
     }
 
 

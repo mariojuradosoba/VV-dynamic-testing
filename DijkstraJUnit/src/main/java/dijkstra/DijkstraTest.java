@@ -2,6 +2,7 @@ package dijkstra;
 
 import org.junit.Before;
 import org.junit.Test;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 
@@ -11,7 +12,7 @@ public class DijkstraTest {
 
 
     ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-                                                //VALORES LÍMITE
+    //VALORES LÍMITE
     ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     private final Double inf = Double.MAX_VALUE;
     private final int MIN = 0;
@@ -81,12 +82,13 @@ public class DijkstraTest {
             for (int j = (MIN - 1); j <= (MAX + 1); ++j) {
                 Double dist = dijkstraOk.computeShortestPath(i, j);
                 System.out.print(dist + "d, ");
-                    assertEquals(results[cont], dist);
-                    System.out.println("ini = " + i + " y  end = " + j + " result = " + dist);
-                    cont ++;
+                assertEquals(results[cont], dist);
+                System.out.println("ini = " + i + " y  end = " + j + " result = " + dist);
+                cont++;
             }
         }
     }
+
     @Test
     public void getPath() {
 
@@ -121,27 +123,28 @@ public class DijkstraTest {
     }
 
     ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-                                                //CLASES DE EQUIVALENCIA
+    //CLASES DE EQUIVALENCIA
     ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
     @Test
-    public void getPathTest1(){
+    public void getPathTest1() {
 
         ArrayList<Integer> result = dijkstraOk.getPath(1, 3);
         assertNull(result);
     }
 
     @Test
-    public void getPathTest2(){
+    public void getPathTest2() {
         dijkstraOk.computeShortestPath(1, 5);
-        ArrayList<Integer> result =dijkstraOk.getPath(null, null);
+        ArrayList<Integer> result = dijkstraOk.getPath(null, null);
         assertEquals(result.size(), 1);
         assertNull(result.get(0));
 
     }
+
     @Test
-    public void getPathTest3(){
+    public void getPathTest3() {
 
         ArrayList<Integer> estimatedValues = new ArrayList<Integer>(Arrays.asList(3, 1));
         dijkstraOk.computeShortestPath(1, 5);
@@ -167,37 +170,36 @@ public class DijkstraTest {
     /////////////////??????????????????????????????????
 
 
-
     @Test
-    public void computeShortestPath1(){
+    public void computeShortestPath1() {
 
         Double result = dijkstraOk.computeShortestPath(-1, 5);
-        assert(result == -1d);
-        assert(dijkstraOk.hasErrorHappened());
+        assert (result == -1d);
+        assert (dijkstraOk.hasErrorHappened());
     }
 
     @Test
-    public void computeShortestPath2(){
+    public void computeShortestPath2() {
 
         Double result = dijkstraOk.computeShortestPath(0, -1);
-        assert(result == -1d);
-        assert(dijkstraOk.hasErrorHappened());
+        assert (result == -1d);
+        assert (dijkstraOk.hasErrorHappened());
     }
 
     @Test
-    public void computeShortestPath3(){
+    public void computeShortestPath3() {
 
         Double result = dijkstraOk.computeShortestPath(8, 0);
-        assert(result == -1d);
-        assert(dijkstraOk.hasErrorHappened());
+        assert (result == -1d);
+        assert (dijkstraOk.hasErrorHappened());
     }
 
     @Test
-    public void computeShortestPath4(){
+    public void computeShortestPath4() {
 
         Double result = dijkstraOk.computeShortestPath(0, 8);
-        assert(result == -1d);
-        assert(dijkstraOk.hasErrorHappened());
+        assert (result == -1d);
+        assert (dijkstraOk.hasErrorHappened());
     }
 
     @Test
@@ -208,18 +210,18 @@ public class DijkstraTest {
         };
         Dijkstra dijkstra = new Dijkstra(grafo, 1);
         Double result = dijkstra.computeShortestPath(0, 0);
-        assert(result == 0);
-        assert(!dijkstraOk.hasErrorHappened());
+        assert (result == 0);
+        assert (!dijkstraOk.hasErrorHappened());
     }
 
     @Test
-    public void computeShortestPath6(){
+    public void computeShortestPath6() {
 
         ArrayList<Integer> estimatedValues = new ArrayList<Integer>(Arrays.asList(5, 4, 3, 1));
 
-        Double dist= dijkstraOk.computeShortestPath(1, 5);
+        Double dist = dijkstraOk.computeShortestPath(1, 5);
         ArrayList<Integer> result = dijkstraOk.getPath(1, 5);
-        assert(dist == 8);
-        assertArrayEquals(estimatedValues.toArray(), result.toArray() );
+        assert (dist == 8);
+        assertArrayEquals(estimatedValues.toArray(), result.toArray());
     }
 }

@@ -66,7 +66,7 @@ public class Agenda implements AgendaInterface {
             return false;
         }
 
-        if(first.info.getName().equals(name)){
+        if (first.info.getName().equals(name)) {
             first = first.sig;
             numEntries--;
             return true;
@@ -74,7 +74,7 @@ public class Agenda implements AgendaInterface {
 
         AgendaNode prev = first;
         while (prev.sig != null) {
-            if(prev.sig.info.getName().equals(name)){
+            if (prev.sig.info.getName().equals(name)) {
                 prev.sig = prev.sig.sig;
                 numEntries--;
                 return true;

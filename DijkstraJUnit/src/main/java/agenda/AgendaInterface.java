@@ -7,11 +7,15 @@ import java.io.IOException;
  * by an Agenda123.java.
  */
 public interface AgendaInterface {
-	boolean addEntry(Entry p);
-	boolean removeEntry(String nombre);
-	Entry removeFirst();
-	boolean isEmpty();
-	int nEntries();
+    boolean addEntry(Entry p);
+
+    boolean removeEntry(String nombre);
+
+    Entry removeFirst();
+
+    boolean isEmpty();
+
+    int nEntries();
 //	boolean saveAgenda() throws IOException;
 //	boolean loadAgenda() throws IOException;
 }
