@@ -33,7 +33,7 @@ public class DijkstraTest {
                 {inf, inf, inf, inf, inf, inf}
         };
 
-        dijkstraOk = new Dijkstra(grafo, 6);
+        dijkstraOk = new Dijkstra(grafo, grafo.length);
 
     }
 
@@ -46,7 +46,7 @@ public class DijkstraTest {
                 {inf, inf, 2d, inf, inf, 3d},
                 {inf, inf, inf, inf, inf, inf}
         };
-        Dijkstra dijkstra = new Dijkstra(grafo, 6);
+        Dijkstra dijkstra = new Dijkstra(grafo, grafo.length);
     }
 
     @Test
@@ -54,7 +54,7 @@ public class DijkstraTest {
         Double[][] grafo = {
                 {inf}
         };
-        Dijkstra dijkstra = new Dijkstra(grafo, 6);
+        Dijkstra dijkstra = new Dijkstra(grafo, grafo.length);
         assertNotNull(dijkstra);
     }
 
@@ -63,7 +63,7 @@ public class DijkstraTest {
         Double[][] grafo = {
                 {inf, 1d, 2d, inf, inf, inf}
         };
-        Dijkstra dijkstra = new Dijkstra(grafo, 6);
+        Dijkstra dijkstra = new Dijkstra(grafo, grafo.length);
     }
 
     @Test
