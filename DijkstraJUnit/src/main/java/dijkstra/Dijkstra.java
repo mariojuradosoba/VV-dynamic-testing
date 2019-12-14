@@ -41,8 +41,8 @@ public class Dijkstra {
      */
     public Dijkstra(Double[][] adjMatrix, Integer nVertices) throws Exception {
 
-        if (adjMatrix.length != adjMatrix[0].length) {
-            throw new Exception("La matriz no es cuadrada");
+        if (adjMatrix.length != adjMatrix[0].length || nVertices != adjMatrix.length) {
+            throw new Exception("La matriz no es cuadrada o el número de vértices no coincide con la matriz");
         }
         this.adjMatrix = adjMatrix;
         this.nVertices = nVertices;
