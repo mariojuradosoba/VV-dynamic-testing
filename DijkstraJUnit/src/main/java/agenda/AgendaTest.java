@@ -138,12 +138,12 @@ public class AgendaTest {
 
     @Test
     public void loadAgenda() throws IOException {
-
+        new PrintWriter("agendafile.txt").close(); // This is to clean the file
         Agenda a = new Agenda();
         a.saveAgenda();
 
 
-        boolean result = agenda.loadAgenda();
+        boolean result = a.loadAgenda();
         assertFalse(result);
 
 
@@ -302,7 +302,7 @@ public class AgendaTest {
     @Test
     public void loadAgenda1() throws IOException {
 
-        new PrintWriter("src/main/agendafile.txt").close(); // This is to clean the file
+        new PrintWriter("agendafile.txt").close(); // This is to clean the file
         boolean result = agenda.loadAgenda();
         assert (!result);
         assert (agenda.isEmpty());

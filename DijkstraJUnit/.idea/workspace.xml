@@ -5,7 +5,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/agenda/Agenda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/agenda/Agenda.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/agenda/AgendaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/agenda/AgendaTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dijkstra/DijkstraTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dijkstra/DijkstraTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,7 +14,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageViewManager">
-    <option name="myElementSize" value="247" />
+    <option name="myElementSize" value="248" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -39,8 +38,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/agenda/AgendaTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
-              <caret line="145" column="34" lean-forward="true" selection-start-line="145" selection-start-column="34" selection-end-line="145" selection-end-column="34" />
+            <state relative-caret-position="169">
+              <caret line="140" column="79" selection-start-line="140" selection-start-column="79" selection-end-line="140" selection-end-column="79" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -48,20 +47,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://E:/Descargas/Agenda.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="43" selection-start-line="43" selection-end-line="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/agenda/Agenda.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-155">
-              <caret line="140" column="49" selection-start-line="140" selection-start-column="49" selection-end-line="140" selection-end-column="49" />
+            <state relative-caret-position="273">
+              <caret line="169" column="8" selection-start-line="169" selection-start-column="8" selection-end-line="169" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -95,6 +85,7 @@
       <find>computeShortestPathFail</find>
       <find>1.7976931348623157E308d</find>
       <find>adde1</find>
+      <find>src/main</find>
     </findStrings>
     <replaceStrings>
       <replace>min</replace>
@@ -240,7 +231,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AgendaTest.loadAgenda">
+  <component name="RunManager" selected="JUnit.DijkstraTest">
     <configuration name="AgendaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="VV dynamic testing" />
       <extension name="coverage">
@@ -339,11 +330,11 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AgendaTest.loadAgenda" />
+        <item itemvalue="JUnit.DijkstraTest" />
         <item itemvalue="JUnit.AgendaTest" />
+        <item itemvalue="JUnit.AgendaTest.loadAgenda" />
         <item itemvalue="JUnit.AgendaTest.addEntry" />
         <item itemvalue="JUnit.AgendaTest.addEntry2" />
-        <item itemvalue="JUnit.DijkstraTest" />
       </list>
     </recent_temporary>
   </component>
@@ -365,7 +356,7 @@
       <workItem from="1576008393167" duration="7783000" />
       <workItem from="1576099354664" duration="6468000" />
       <workItem from="1576405310415" duration="5048000" />
-      <workItem from="1576444821600" duration="2090000" />
+      <workItem from="1576444821600" duration="2599000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1575400313664</created>
@@ -416,43 +407,50 @@
       <option name="project" value="LOCAL" />
       <updated>1576407969542</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="[Agenda] Arreglado error addEntry en tests">
+      <created>1576447015301</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1576447015302</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AgendaTest_addEntry2 - 2019.12.15 at 22h 41m 19s.xml">
-      <configuration name="AgendaTest.addEntry2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AgendaTest_addEntry2 - 2019.12.15 at 22h 47m 56s.xml">
-      <configuration name="AgendaTest.addEntry2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AgendaTest - 2019.12.15 at 22h 48m 18s.xml">
-      <configuration name="AgendaTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AgendaTest_addEntry - 2019.12.15 at 22h 49m 33s.xml">
-      <configuration name="AgendaTest.addEntry" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AgendaTest_addEntry - 2019.12.15 at 22h 51m 53s.xml">
-      <configuration name="AgendaTest.addEntry" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AgendaTest_addEntry - 2019.12.15 at 22h 52m 21s.xml">
-      <configuration name="AgendaTest.addEntry" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AgendaTest - 2019.12.15 at 22h 52m 36s.xml">
-      <configuration name="AgendaTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AgendaTest - 2019.12.15 at 22h 53m 26s.xml">
-      <configuration name="AgendaTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="AgendaTest_loadAgenda - 2019.12.15 at 22h 55m 37s.xml">
       <configuration name="AgendaTest.loadAgenda" configurationId="JUnit" />
     </history-entry>
     <history-entry file="AgendaTest_loadAgenda - 2019.12.15 at 22h 55m 40s.xml">
       <configuration name="AgendaTest.loadAgenda" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="AgendaTest - 2019.12.15 at 22h 59m 33s.xml">
+      <configuration name="AgendaTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AgendaTest - 2019.12.15 at 23h 00m 15s.xml">
+      <configuration name="AgendaTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AgendaTest_loadAgenda - 2019.12.15 at 23h 01m 24s.xml">
+      <configuration name="AgendaTest.loadAgenda" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AgendaTest_loadAgenda - 2019.12.15 at 23h 01m 29s.xml">
+      <configuration name="AgendaTest.loadAgenda" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AgendaTest_loadAgenda - 2019.12.15 at 23h 03m 59s.xml">
+      <configuration name="AgendaTest.loadAgenda" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AgendaTest_loadAgenda - 2019.12.15 at 23h 04m 03s.xml">
+      <configuration name="AgendaTest.loadAgenda" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AgendaTest - 2019.12.15 at 23h 04m 19s.xml">
+      <configuration name="AgendaTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AgendaTest - 2019.12.15 at 23h 04m 46s.xml">
+      <configuration name="AgendaTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27911000" />
+    <option name="totallyTimeSpent" value="28420000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -467,8 +465,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.21776815" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.22860238" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.032502707" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.09534128" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -488,7 +486,7 @@
       <window_info anchor="right" id="Database" order="6" weight="0.32995737" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info anchor="right" id="Coverage" order="9" side_tool="true" visible="true" weight="0.26972282" />
+      <window_info active="true" anchor="right" id="Coverage" order="9" side_tool="true" visible="true" weight="0.26972282" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -501,7 +499,8 @@
     <MESSAGE value="[Dijkstra] 49 Robust worst boundary test" />
     <MESSAGE value="[Dijkstra] Clases de equivalencia terminadas" />
     <MESSAGE value="[Dijkstra] Añadido test Ok caja negra al  constructor" />
-    <option name="LAST_COMMIT_MESSAGE" value="[Dijkstra] Añadido test Ok caja negra al  constructor" />
+    <MESSAGE value="[Agenda] Arreglado error addEntry en tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="[Agenda] Arreglado error addEntry en tests" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -532,13 +531,13 @@
     <SUITE FILE_PATH="coverage/DijkstraJUnit$DijkstraTest_computeShortestPath6.ic" NAME="DijkstraTest.computeShortestPath6 Coverage Results" MODIFIED="1576105118213" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>dijkstra.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/DijkstraJUnit$AgendaTest.ic" NAME="AgendaTest Coverage Results" MODIFIED="1576446797129" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/DijkstraJUnit$AgendaTest.ic" NAME="AgendaTest Coverage Results" MODIFIED="1576447518952" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>agenda.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/DijkstraJUnit$DijkstraTest_getPath.ic" NAME="DijkstraTest.getPath Coverage Results" MODIFIED="1576008967635" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>dijkstra.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/DijkstraJUnit$DijkstraTest.ic" NAME="DijkstraTest Coverage Results" MODIFIED="1576445875597" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/DijkstraJUnit$DijkstraTest.ic" NAME="DijkstraTest Coverage Results" MODIFIED="1576447593587" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>dijkstra.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/DijkstraJUnit$DijkstraTest_computeShortestPath.ic" NAME="DijkstraTest.computeShortestPath Coverage Results" MODIFIED="1575488683957" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
@@ -672,10 +671,13 @@
     <entry file="file://$PROJECT_DIR$/src/main/agendafile.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/agendafile.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/agenda/AgendaTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="145" column="34" lean-forward="true" selection-start-line="145" selection-start-column="34" selection-end-line="145" selection-end-column="34" />
+        <state relative-caret-position="169">
+          <caret line="140" column="79" selection-start-line="140" selection-start-column="79" selection-end-line="140" selection-end-column="79" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -684,8 +686,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/agenda/Agenda.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-155">
-          <caret line="140" column="49" selection-start-line="140" selection-start-column="49" selection-end-line="140" selection-end-column="49" />
+        <state relative-caret-position="273">
+          <caret line="169" column="8" selection-start-line="169" selection-start-column="8" selection-end-line="169" selection-end-column="8" />
         </state>
       </provider>
     </entry>

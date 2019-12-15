@@ -167,6 +167,7 @@ public class Agenda implements AgendaInterface {
      * The function returns true is the file exists and false otherwise.
      */
     public boolean loadAgenda() throws IOException {
+
         FileReader filein = new FileReader("agendafile.txt");
         BufferedReader bufferin = new BufferedReader(filein);
 
