@@ -37,22 +37,20 @@ public class Agenda implements AgendaInterface {
         if (first != null) {
             cur = first;
             while (cur.sig != null && cur.sig.info.getName().compareToIgnoreCase(p.getName()) <= 0 && !found) {
-                if (cur.sig.info.getName().equals(p.getName()) && cur.sig.info.getSurname().equals(p.getSurname())){
-                    found=true;
-                }else{
+                if (cur.sig.info.getName().equals(p.getName()) && cur.sig.info.getSurname().equals(p.getSurname())) {
+                    found = true;
+                } else {
                     cur = cur.sig;
                 }
             }
-
-            if (found){
+            if (found) {
                 return false;
-            }else{
+            } else {
                 AgendaNode newNode = new AgendaNode(p, cur.sig);
                 cur.sig = newNode;
                 this.numEntries++;
                 return true;
             }
-
         } else {
             first = new AgendaNode(p, null);
             this.numEntries++;
@@ -130,26 +128,28 @@ public class Agenda implements AgendaInterface {
      */
     public boolean saveAgenda() throws IOException {
         AgendaNode cur = first;
-        String line;
         boolean success = false;
-        Parser p = new Parser();
 
-        FileWriter fichero = new FileWriter("agendafile.txt");
-        BufferedWriter bufferescritura = new BufferedWriter(fichero);
-        PrintWriter output = new PrintWriter(bufferescritura);
+        if (cur != null) {
+            String line;
+            Parser p = new Parser();
 
-        while (cur != null) {
-            if (!success) {
-                success = true;
+            FileWriter fichero = new FileWriter("agendafile.txt");
+            BufferedWriter bufferescritura = new BufferedWriter(fichero);
+            PrintWriter output = new PrintWriter(bufferescritura);
+
+            while (cur != null) {
+                if (!success) {
+                    success = true;
+                }
+                p.insertEntry(cur.info);
+                line = p.getLine();
+                output.println(line);
+                cur = cur.sig;
             }
-            p.insertEntry(cur.info);
-            line = p.getLine();
-            output.println(line);
-            cur = cur.sig;
+
+            output.close();
         }
-
-        output.close();
-
         return success;
     }
 
