@@ -2,7 +2,6 @@ package dijkstra;
 
 import org.junit.Before;
 import org.junit.Test;
-
 import java.util.ArrayList;
 import java.util.Arrays;
 
@@ -37,8 +36,26 @@ public class DijkstraTest {
 
     }
 
-    @Test(expected = Exception.class) //Checks that when not squared matrix is introduced, an exception rises.
+
+    @Test
     public void test1() throws Exception {
+
+        Double[][] grafo = {
+                {inf, 1d, 2d, inf, inf, inf},
+                {inf, inf, 2d, 3d, inf, inf},
+                {inf, inf, inf, 1d, inf, inf},
+                {inf, inf, inf, inf, 2d, inf},
+                {inf, inf, 2d, inf, inf, 3d},
+                {inf, inf, inf, inf, inf, inf}
+        };
+
+        Dijkstra dijkstra = new Dijkstra(grafo, grafo.length);
+        assertNotNull(dijkstra);
+
+    }
+
+    @Test(expected = Exception.class) //Checks that when not squared matrix is introduced, an exception rises.
+    public void test2() throws Exception {
         Double[][] grafo = {
                 {inf, 1d, 2d, inf, inf, inf},
                 {inf, inf, inf, 1d, inf, inf},
@@ -50,7 +67,7 @@ public class DijkstraTest {
     }
 
     @Test
-    public void test2() throws Exception { // 1 x1
+    public void test3() throws Exception { // 1 x1
         Double[][] grafo = {
                 {inf}
         };
@@ -59,7 +76,7 @@ public class DijkstraTest {
     }
 
     @Test(expected = Exception.class)
-    public void test3() throws Exception {
+    public void test4() throws Exception {
         Double[][] grafo = {
                 {inf, 1d, 2d, inf, inf, inf}
         };
@@ -67,7 +84,7 @@ public class DijkstraTest {
     }
 
     @Test(expected = Exception.class)
-    public void test4() throws Exception {
+    public void test5() throws Exception {
         Double[][] grafo = {
                 {inf},
                 {1d},
@@ -123,7 +140,7 @@ public class DijkstraTest {
     @Test
     public void hasErrorHappened() {
         dijkstraOk.computeShortestPath(1, 5);
-        Boolean error = dijkstraOk.hasErrorHappened();
+        boolean error = dijkstraOk.hasErrorHappened();
         assertFalse(error);
 
         dijkstraOk.computeShortestPath(5, -1);

@@ -46,10 +46,13 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/dijkstra/DijkstraTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="25" column="28" lean-forward="true" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+            <state relative-caret-position="329">
+              <caret line="52" column="32" selection-start-line="52" selection-start-column="32" selection-end-line="52" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#3618#3627#0" expanded="true" />
+                <element signature="e#4961#4970#0" expanded="true" />
+                <element signature="e#6790#6799#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -117,9 +120,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1057" />
-    <option name="y" value="-113" />
-    <option name="width" value="1033" />
+    <option name="x" value="585" />
+    <option name="y" value="-6" />
+    <option name="width" value="551" />
     <option name="height" value="886" />
   </component>
   <component name="ProjectId" id="1TWOz1Lbb4aH0QdiQwKkWsasYRS" />
@@ -355,7 +358,7 @@
       <workItem from="1575486903250" duration="3162000" />
       <workItem from="1576008393167" duration="7783000" />
       <workItem from="1576099354664" duration="6468000" />
-      <workItem from="1576405310415" duration="1251000" />
+      <workItem from="1576405310415" duration="1865000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1575400313664</created>
@@ -392,7 +395,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576105624542</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="[Dijkstra] Clases de equivalencia terminadas">
+      <created>1576407440136</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1576407440136</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -428,12 +438,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22024000" />
+    <option name="totallyTimeSpent" value="22638000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1032" y="-111" width="1040" height="1256" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16632654" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14712153" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -476,24 +487,6 @@
     <MESSAGE value="[Dijkstra] 49 Robust worst boundary test" />
     <MESSAGE value="[Dijkstra] Clases de equivalencia terminadas" />
     <option name="LAST_COMMIT_MESSAGE" value="[Dijkstra] Clases de equivalencia terminadas" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/dijkstra/DijkstraTest.java</url>
-          <line>145</line>
-          <properties />
-          <option name="timeStamp" value="22" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/dijkstra/DijkstraTest.java</url>
-          <line>218</line>
-          <properties />
-          <option name="timeStamp" value="31" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/DijkstraJUnit$Main.ic" NAME="Main Coverage Results" MODIFIED="1575487478252" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
@@ -643,10 +636,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/dijkstra/DijkstraTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="25" column="28" lean-forward="true" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+        <state relative-caret-position="329">
+          <caret line="52" column="32" selection-start-line="52" selection-start-column="32" selection-end-line="52" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#3618#3627#0" expanded="true" />
+            <element signature="e#4961#4970#0" expanded="true" />
+            <element signature="e#6790#6799#0" expanded="true" />
           </folding>
         </state>
       </provider>
