@@ -32,22 +32,26 @@ public class Agenda implements AgendaInterface {
      */
     public boolean addEntry(Entry p) {
         AgendaNode cur = null;
+        AgendaNode prev = null;
         boolean found = false;
 
         if (first != null) {
             cur = first;
-            while (cur.sig != null && cur.sig.info.getName().compareToIgnoreCase(p.getName()) <= 0 && !found) {
-                if (cur.sig.info.getName().equals(p.getName()) && cur.sig.info.getSurname().equals(p.getSurname())) {
+
+            while (cur != null && cur.info.getName().compareToIgnoreCase(p.getName()) <= 0 && !found) {
+                if (cur.info.getName().equals(p.getName()) && cur.info.getSurname().equals(p.getSurname())) {
                     found = true;
                 } else {
+                    prev = cur;
                     cur = cur.sig;
                 }
             }
+
             if (found) {
                 return false;
             } else {
-                AgendaNode newNode = new AgendaNode(p, cur.sig);
-                cur.sig = newNode;
+                AgendaNode newNode = new AgendaNode(p, cur);
+                prev.sig= newNode;
                 this.numEntries++;
                 return true;
             }

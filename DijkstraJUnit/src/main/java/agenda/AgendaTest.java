@@ -90,8 +90,8 @@ public class AgendaTest {
 
         Entry firstRemoved = agenda.removeFirst();
 
-        assert (firstRemoved.getName().equals("NAME2"));
-        assert (firstRemoved.getSurname().equals("SURNAME2"));
+        assert (firstRemoved.getName().equals("NAME1"));
+        assert (firstRemoved.getSurname().equals("SURNAME1"));
     }
 
     @Test
@@ -302,7 +302,7 @@ public class AgendaTest {
     @Test
     public void loadAgenda1() throws IOException {
 
-        new PrintWriter("agendafile.txt").close(); // This is to clean the file
+        new PrintWriter("src/main/agendafile.txt").close(); // This is to clean the file
         boolean result = agenda.loadAgenda();
         assert (!result);
         assert (agenda.isEmpty());
