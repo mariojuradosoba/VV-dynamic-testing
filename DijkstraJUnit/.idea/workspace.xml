@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b5f40756-d02e-4abf-bcfe-cfce1e8aee0b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dijkstra/Dijkstra.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dijkstra/Dijkstra.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/dijkstra/DijkstraTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dijkstra/DijkstraTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -14,7 +13,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageViewManager">
-    <option name="myElementSize" value="407" />
+    <option name="myElementSize" value="217" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -34,73 +33,38 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/agenda/Entry.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="210">
-                  <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/main/java/dijkstra/DijkstraTest.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="489">
-                  <caret line="223" column="5" selection-start-line="223" selection-start-column="5" selection-end-line="223" selection-end-column="5" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                    <element signature="e#4939#4948#0" expanded="true" />
-                    <element signature="e#6791#6800#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/dijkstra/Main.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="420">
-                  <caret line="20" column="43" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/dijkstra/DijkstraTest.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="85">
-                  <caret line="215" column="39" selection-start-line="215" selection-start-column="39" selection-end-line="215" selection-end-column="39" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                    <element signature="e#4964#4973#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/main/java/dijkstra/Dijkstra.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="141">
-                  <caret line="123" selection-start-line="123" selection-end-line="123" />
-                  <folding>
-                    <element signature="e#5636#5645#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/agenda/Entry.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/dijkstra/DijkstraTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="525">
+              <caret line="25" column="28" lean-forward="true" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/dijkstra/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="20" column="43" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -153,8 +117,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="500" />
-    <option name="y" value="-18" />
+    <option name="x" value="-1057" />
+    <option name="y" value="-113" />
     <option name="width" value="1033" />
     <option name="height" value="886" />
   </component>
@@ -164,7 +128,60 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="DijkstraJUnit" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DijkstraJUnit" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DijkstraJUnit" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DijkstraJUnit" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DijkstraJUnit" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DijkstraJUnit" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DijkstraJUnit" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DijkstraJUnit" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DijkstraJUnit" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DijkstraJUnit" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="agenda" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DijkstraJUnit" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DijkstraJUnit" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dijkstra" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DijkstraJUnit" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DijkstraJUnit" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -213,8 +230,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.DijkstraTest.computeShortestPath6">
-    <configuration name="DijkstraTest.computeShortestPath2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.DijkstraTest">
+    <configuration name="DijkstraTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="VV dynamic testing" />
       <extension name="coverage">
         <pattern>
@@ -224,8 +241,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="dijkstra" />
       <option name="MAIN_CLASS_NAME" value="dijkstra.DijkstraTest" />
-      <option name="METHOD_NAME" value="computeShortestPath2" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -306,19 +322,19 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.Unnamed" />
-      <item itemvalue="JUnit.DijkstraTest.computeShortestPath2" />
       <item itemvalue="JUnit.DijkstraTest.computeShortestPath3" />
       <item itemvalue="JUnit.DijkstraTest.computeShortestPath4" />
       <item itemvalue="JUnit.DijkstraTest.computeShortestPath5" />
       <item itemvalue="JUnit.DijkstraTest.computeShortestPath6" />
+      <item itemvalue="JUnit.DijkstraTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DijkstraTest" />
         <item itemvalue="JUnit.DijkstraTest.computeShortestPath6" />
         <item itemvalue="JUnit.DijkstraTest.computeShortestPath5" />
         <item itemvalue="JUnit.DijkstraTest.computeShortestPath4" />
         <item itemvalue="JUnit.DijkstraTest.computeShortestPath3" />
-        <item itemvalue="JUnit.DijkstraTest.computeShortestPath2" />
       </list>
     </recent_temporary>
   </component>
@@ -338,7 +354,8 @@
       <workItem from="1575399830572" duration="1144000" />
       <workItem from="1575486903250" duration="3162000" />
       <workItem from="1576008393167" duration="7783000" />
-      <workItem from="1576099354664" duration="6214000" />
+      <workItem from="1576099354664" duration="6468000" />
+      <workItem from="1576405310415" duration="1251000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1575400313664</created>
@@ -368,16 +385,17 @@
       <option name="project" value="LOCAL" />
       <updated>1576015738600</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="[Dijkstra] Clases de equivalencia terminadas">
+      <created>1576105624542</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1576105624542</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DijkstraTest_computeShortestPath5 - 2019.12.11 at 23h 44m 50s.xml">
-      <configuration name="DijkstraTest.computeShortestPath5" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DijkstraTest_computeShortestPath5 - 2019.12.11 at 23h 45m 22s.xml">
-      <configuration name="DijkstraTest.computeShortestPath5" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="DijkstraTest_computeShortestPath5 - 2019.12.11 at 23h 46m 04s.xml">
       <configuration name="DijkstraTest.computeShortestPath5" configurationId="JUnit" />
     </history-entry>
@@ -402,14 +420,20 @@
     <history-entry file="DijkstraTest_computeShortestPath6 - 2019.12.11 at 23h 58m 51s.xml">
       <configuration name="DijkstraTest.computeShortestPath6" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="DijkstraTest - 2019.12.12 at 00h 07m 34s.xml">
+      <configuration name="DijkstraTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DijkstraTest - 2019.12.12 at 00h 10m 26s.xml">
+      <configuration name="DijkstraTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20519000" />
+    <option name="totallyTimeSpent" value="22024000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-1032" y="-111" width="1040" height="1256" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.19936034" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16632654" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -418,7 +442,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.24377032" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.8234019" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.2611051" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -439,7 +463,7 @@
       <window_info anchor="right" id="Database" order="6" weight="0.32995737" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info anchor="right" id="Coverage" order="9" side_tool="true" visible="true" weight="0.21801706" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" visible="true" weight="0.26972282" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -450,20 +474,21 @@
     <MESSAGE value="100% Aagenda, Dijkstra sin arreglar tests" />
     <MESSAGE value="100% Agenda y 100% Dijkstra" />
     <MESSAGE value="[Dijkstra] 49 Robust worst boundary test" />
-    <option name="LAST_COMMIT_MESSAGE" value="[Dijkstra] 49 Robust worst boundary test" />
+    <MESSAGE value="[Dijkstra] Clases de equivalencia terminadas" />
+    <option name="LAST_COMMIT_MESSAGE" value="[Dijkstra] Clases de equivalencia terminadas" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/dijkstra/DijkstraTest.java</url>
-          <line>146</line>
+          <line>145</line>
           <properties />
           <option name="timeStamp" value="22" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/dijkstra/DijkstraTest.java</url>
-          <line>219</line>
+          <line>218</line>
           <properties />
           <option name="timeStamp" value="31" />
         </line-breakpoint>
@@ -487,7 +512,7 @@
     <SUITE FILE_PATH="coverage/DijkstraJUnit$DijkstraTest_getPath.ic" NAME="DijkstraTest.getPath Coverage Results" MODIFIED="1576008967635" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>dijkstra.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/DijkstraJUnit$DijkstraTest.ic" NAME="DijkstraTest Coverage Results" MODIFIED="1576015796092" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/DijkstraJUnit$DijkstraTest.ic" NAME="DijkstraTest Coverage Results" MODIFIED="1576105819420" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>dijkstra.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/DijkstraJUnit$DijkstraTest_computeShortestPath.ic" NAME="DijkstraTest.computeShortestPath Coverage Results" MODIFIED="1575488683957" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
@@ -585,6 +610,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dijkstra/Dijkstra.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-54">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="e#5636#5645#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/agenda/Entry.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -599,31 +641,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dijkstra/Dijkstra.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="123" selection-start-line="123" selection-end-line="123" />
-          <folding>
-            <element signature="e#5636#5645#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/dijkstra/DijkstraTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="489">
-          <caret line="223" column="5" selection-start-line="223" selection-start-column="5" selection-end-line="223" selection-end-column="5" />
+        <state relative-caret-position="525">
+          <caret line="25" column="28" lean-forward="true" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#4939#4948#0" expanded="true" />
-            <element signature="e#6791#6800#0" expanded="true" />
           </folding>
         </state>
       </provider>
