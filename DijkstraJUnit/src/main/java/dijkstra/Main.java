@@ -17,8 +17,8 @@ public class Main {
 
         Dijkstra dijkstra = new Dijkstra(grafo, 6);
 
-        System.out.println(dijkstra.computeShortestPath(1, 5));
-        System.out.println(dijkstra.getPath(1, 5));
+        System.out.println(dijkstra.computeShortestPath(0, 1));
+        System.out.println(dijkstra.getPath(0, 1));
         System.out.println(dijkstra.hasErrorHappened());
 
 
