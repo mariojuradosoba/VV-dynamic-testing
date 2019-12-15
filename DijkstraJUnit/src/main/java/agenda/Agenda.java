@@ -31,27 +31,35 @@ public class Agenda implements AgendaInterface {
      * surname fields.
      */
     public boolean addEntry(Entry p) {
-        AgendaNode cur;
+        AgendaNode cur = null;
         boolean found = false;
 
         if (first != null) {
             cur = first;
-            while (cur != null && !found) {
-                if (cur.info.getName().equals(p.getName())) {
-                    found = true;
+            while (cur.sig != null && cur.sig.info.getName().compareToIgnoreCase(p.getName()) <= 0 && !found) {
+                if (cur.sig.info.getName().equals(p.getName()) && cur.sig.info.getSurname().equals(p.getSurname())){
+                    found=true;
+                }else{
+                    cur = cur.sig;
                 }
-
-                cur = cur.sig;
             }
-        }
 
-        if (!found) {
-            first = new AgendaNode(p, first);
+            if (found){
+                return false;
+            }else{
+                AgendaNode newNode = new AgendaNode(p, cur.sig);
+                cur.sig = newNode;
+                this.numEntries++;
+                return true;
+            }
+
+        } else {
+            first = new AgendaNode(p, null);
             this.numEntries++;
             return true;
-        } else
-            return false;
+        }
     }
+
 
     /**
      * STATIC ANALYSIS
